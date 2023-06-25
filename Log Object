@@ -1,1 +1,20 @@
+function logObject(obj) {
+    console.log(obj)
+}
 
+// Sample usage - do not modify
+let person = {
+    firstName: "Sam",
+    lastName: "Doe",
+    age: 21,
+    email: "sam@gmail.com",
+    isVerified: true
+};
+
+let configuration = {
+    theme: "dark"
+    currency: 'USD"
+};
+
+logObject(person);
+logObject(configuration);
