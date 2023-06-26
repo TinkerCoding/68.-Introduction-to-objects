@@ -1,0 +1,6 @@
+let configuration= {
+   theme: "dark",
+   currency: "USD"
+};
+
+console.log(configuration.currency)
