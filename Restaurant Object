@@ -1,0 +1,7 @@
+// create restaurant object
+
+let restaurant = {
+   name: "Red Lobster",
+   rating: 5,
+   openOnMondays: true
+}
