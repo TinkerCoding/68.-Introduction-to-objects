@@ -1,0 +1,9 @@
+let person = {
+    firstName: "Sam",
+    lastName: "Doe",
+    age: 21,
+    email: "sam@gmail.com",
+    isVerified: false
+};
+
+person.isVerified = true
