@@ -1,0 +1,21 @@
+/**
+* @param {Object[]} course
+* @param {string} course[].name
+* @param {boolean} course[].isCompleted
+*/
+function getCourseName(course) {
+    return course.name
+}
+
+// Sample usgae - do not modify
+let course1 = {
+    name: "Learn Programming",
+    isCompleted: true
+};
+let course2 = {
+    name: "Learn JavaScript",
+    isCompleted: false
+};
+
+console.log(getCourseName(course1)); // "Learn Programming"
+console.log(getCourseName(course2)); // "Learn JavaScript"
