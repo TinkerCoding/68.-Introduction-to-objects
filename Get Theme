@@ -1,0 +1,19 @@
+/**
+* @param {Object[]} configuration
+* @param {string} configuration[].theme
+* @param {string} configuration[].currency
+*/
+function getTheme(configuration) {
+   return configuration.theme
+}
+
+// Sample usage - do not modify
+getTheme({
+    theme: "dark",
+    currency: "USD"
+}); // "dark"
+
+getTheme({ 
+   theme: "light",
+   currency: "EUR"
+}); // "light"
